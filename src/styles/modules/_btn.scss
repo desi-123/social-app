@@ -1,0 +1,29 @@
+.btn {
+    @include btn();
+    border-radius: 5px;
+    color: $mainWhite;
+
+    &:hover {
+        box-shadow: $box-shadow;
+    }
+
+    &--delete {
+        background-color: $mainPurple-1;
+    }
+    &--edit {
+        background-color: $mainDarkBlue;
+    }
+
+    &--cancel {
+        background-color: $mainPurple-1;
+    }
+    &--save {
+        background-color: $mainDarkBlue;
+    }
+}
+
+.btn-add-snippet {
+    background-color: $mainOrange;
+    padding: .5rem 2rem;
+    margin: 1rem;
+}

@@ -1,0 +1,19 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: $mainOrange;
+    @include link()
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__item {
+        margin: 0 2rem;
+    }
+    &__item--2 {
+        margin-right: 5rem;
+    }
+}

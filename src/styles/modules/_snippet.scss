@@ -1,0 +1,23 @@
+.snippet {
+    @include card();
+    &:not(:last-child) {
+        margin-bottom: 1rem;
+    }
+
+    &__title {
+        margin-bottom: 1rem;
+    }
+
+    &__description {
+        margin-bottom: 1rem;
+    }
+
+    &__code {
+        margin-bottom: 1rem;
+        font-family: monospace;
+        font-size: 1.3rem;
+        background-color: $mainBlack;
+        border-radius: 5px;
+        padding: .5rem;
+    }
+}
